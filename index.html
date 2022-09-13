@@ -9,99 +9,92 @@
 
 <body>
     <div id="masterContainer">
+
         <header>
             <img src="imgDrumKitWhite.png" alt="Key Icon">
             <p><b>Online Drumkit</b></p>
         </header>
+
+        <div id="info">
+            <p>Welcome to my Online Drumkit! This is a coding project where I have used HTML, CSS and JavaScript in
+                order to make a webpage that produces different sounds depending on which key/button is pressed while
+                the page is open. I've made a simple design, to mirror the numpad that the sounds are bound to, and so
+                to make use of the site easier. In doing so I have practiced with line-customisation (customising the
+                &lt;hr&gt; tag and creating a class for a vertical line) as well as JavaScript as a whole.<br><br><br><br>
+                <i>Please, scroll down and  enjoy the site!</i>
+            </p>
+        </div>
+
         <div id="container">
             <div class="keys">
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+                <button id="nmp7"><i>[Numpad]7</i><br><br><br>
+                    <p>snare</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp8"><i>[Numpad]8</i><br><br><br>
+                    <p>tink</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp9"><i>[Numpad]9</i><br><br><br>
+                    <p>tom</p>
                 </button>
             </div>
+
+            <hr class="hl">
+
             <div class="keys">
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+                <button id="nmp4"><i>[Numpad]4</i><br><br><br>
+                    <p>kick</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp5"><i>[Numpad]5</i><br><br><br>
+                    <p>openhat</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp6"><i>[Numpad]6</i><br><br><br>
+                    <p>ride</p>
                 </button>
             </div>
+
+            <hr class="hl">
+
             <div class="keys">
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+                <button id="nmp1"><i>[Numpad]1</i><br><br><br>
+                    <p>boom</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp2"><i>[Numpad]2</i><br><br><br>
+                    <p>clap</p>
                 </button>
-                <button>
-                    <i>key</i>
-                    <br>
-                    <br>
-                    info
+
+                <div class="vl"></div>
+
+                <button id="nmp3"><i>[Numpad]3</i><br><br><br>
+                    <p>hihat</p>
                 </button>
-            </div>
-            <div id="info">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti est labore minima quos dolor
-                    nobis
-                    ipsa quas numquam incidunt adipisci. Sequi ea dignissimos doloribus vitae ratione, officia nulla
-                    unde
-                    minus eligendi perspiciatis officiis laborum, enim libero illum veritatis sunt exercitationem
-                    voluptate
-                    ullam? Neque atque laborum alias, ipsum soluta libero ipsam aperiam iusto fugit odio est, suscipit
-                    dolor
-                    quas laudantium ducimus voluptatum, iure enim earum. Ab ad obcaecati quisquam odio veniam explicabo
-                    fugiat hic temporibus aut, minus ipsum culpa nemo rerum possimus ex voluptatum esse facilis
-                    excepturi
-                    cumque tempore provident. Dicta ducimus nemo officiis aut qui fugiat voluptatum in saepe et officia
-                    vero
-                    blanditiis beatae doloremque, itaque velit distinctio nisi hic veritatis rem magnam assumenda.
-                    Adipisci
-                    animi dicta suscipit omnis deserunt illo ipsa sint error harum culpa ex voluptate earum in fugit
-                    similique enim, quidem doloremque illum. Aspernatur deleniti laborum nesciunt quae doloribus non
-                    quos
-                    harum quibusdam! Ex, tempore quae omnis dolorem inventore voluptate! Quod voluptatibus delectus
-                    quaerat
-                    dolore, eum amet! Sunt officia numquam voluptates corrupti ipsam aspernatur facilis error
-                    consectetur
-                    harum, quis quo alias itaque repellat? Obcaecati voluptatem eligendi voluptatibus.
-                </p>
             </div>
         </div>
+
+        <audio src="./sounds/boom.wav" id="boom" style="display:none"></audio>
+        <audio src="./sounds/clap.wav" id="clap" style="display:none"></audio>
+        <audio src="./sounds/hihat.wav" id="hihat" style="display:none"></audio>
+        <audio src="./sounds/kick.wav" id="kick" style="display:none"></audio>
+        <audio src="./sounds/openhat.wav" id="openhat" style="display:none"></audio>
+        <audio src="./sounds/ride.wav" id="ride" style="display:none"></audio>
+        <audio src="./sounds/snare.wav" id="snare" style="display:none"></audio>
+        <audio src="./sounds/tink.wav" id="tink" style="display:none"></audio>
+        <audio src="./sounds/tom.wav" id="tom" style="display:none"></audio>
+
         <script src="script.js"></script>
 </body>
 
