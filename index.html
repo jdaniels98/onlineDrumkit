@@ -1,91 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Jack Daniels | Drumkit</title>
 </head>
-
 <body>
     <div id="masterContainer">
-
         <header>
+            <p><b>Online</b></p>
             <img src="imgDrumKitWhite.png" alt="Key Icon">
-            <p><b>Online Drumkit</b></p>
+            <p><b>Drumkit</b></p>
         </header>
-
         <div id="info">
-            <p>Welcome to my Online Drumkit! This is a coding project where I have used HTML, CSS and JavaScript in
-                order to make a webpage that produces different sounds depending on which key/button is pressed while
-                the page is open. I've made a simple design, to mirror the numpad that the sounds are bound to, and so
-                to make use of the site easier. However I have also ensured that both the number keys and numpad keys
-                can be used to the same effect, as well simply clicking the sound you wish to make. In doing so I have
-                practiced with line-customisation (customising the &lt;hr&gt; tag and creating a class for a vertical
-                line) as well as JavaScript as awhole.<br><br><br><br><i>Please, scroll down and enjoy the site!</i>
-            </p>
+            <p>Welcome to my Online Drumkit! This site will allow you to use the number keys, numberpad, or mouse, to
+                play a selection of drum sounds right from your browser!</p><br>
+            <p><i>Please, enjoy the site!</i></p>
         </div>
-
         <div id="container">
             <div class="keys">
-                <button id="nmp7"><i>[Numpad]7</i><br><br><br>
-                    <p>snare</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp8"><i>[Numpad]8</i><br><br><br>
-                    <p>tink</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp9"><i>[Numpad]9</i><br><br><br>
-                    <p>tom</p>
-                </button>
+                <a id="nmp7" class="btn btn3">[Numpad]7<br><br><i>snare</i></a>
+                <a id="nmp8" class="btn btn3 btns">[Numpad]8<br><br><i>tink</i></a>
+                <a id="nmp9" class="btn btn3 btns">[Numpad]9<br><br><i>tom</i></a>
             </div>
-
-            <hr class="hl">
-
             <div class="keys">
-                <button id="nmp4"><i>[Numpad]4</i><br><br><br>
-                    <p>kick</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp5"><i>[Numpad]5</i><br><br><br>
-                    <p>openhat</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp6"><i>[Numpad]6</i><br><br><br>
-                    <p>ride</p>
-                </button>
+                <a id="nmp4" class="btn btn3">[Numpad]4<br><br><i>kick</i></a>
+                <a id="nmp5" class="btn btn3 btns">[Numpad]5<br><br><i>openhat</i></a>
+                <a id="nmp6" class="btn btn3 btns">[Numpad]6<br><br><i>ride</i></a>
             </div>
-
-            <hr class="hl">
-
             <div class="keys">
-                <button id="nmp1"><i>[Numpad]1</i><br><br><br>
-                    <p>boom</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp2"><i>[Numpad]2</i><br><br><br>
-                    <p>clap</p>
-                </button>
-
-                <div class="vl"></div>
-
-                <button id="nmp3"><i>[Numpad]3</i><br><br><br>
-                    <p>hihat</p>
-                </button>
+                <a id="nmp1" class="btn btn3">[Numpad]1<br><br><i>boom</i></a>
+                <a id="nmp2" class="btn btn3 btns">[Numpad]2<br><br><i>clap</i></a>
+                <a id="nmp3" class="btn btn3 btns">[Numpad]3<br><br><i>hihat</i></a>
             </div>
         </div>
-
         <audio src="./sounds/boom.wav" id="boom" style="display:none"></audio>
         <audio src="./sounds/clap.wav" id="clap" style="display:none"></audio>
         <audio src="./sounds/hihat.wav" id="hihat" style="display:none"></audio>
@@ -95,8 +43,6 @@
         <audio src="./sounds/snare.wav" id="snare" style="display:none"></audio>
         <audio src="./sounds/tink.wav" id="tink" style="display:none"></audio>
         <audio src="./sounds/tom.wav" id="tom" style="display:none"></audio>
-
         <script src="script.js"></script>
 </body>
-
 </html>

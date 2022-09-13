@@ -10,76 +10,111 @@ const nmp9 = document.getElementById("nmp9")
 
 window.addEventListener("keydown", (e) =>  {
     if(e.keyCode == 35 || e.keyCode == 49) {
-        const boom = document.getElementById("boom")
-        boom.play()
+        const boom = document.getElementById("boom");
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 40 || e.keyCode == 50) {
         const boom = document.getElementById("clap")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 34 || e.keyCode == 51) {
         const boom = document.getElementById("hihat")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 37 || e.keyCode == 52) {
         const boom = document.getElementById("kick")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 12 || e.keyCode == 53) {
         const boom = document.getElementById("openhat")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 39 || e.keyCode == 54) {
         const boom = document.getElementById("ride")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 36 || e.keyCode == 55) {
         const boom = document.getElementById("snare")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 38 || e.keyCode == 56) {
         const boom = document.getElementById("tink")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
     else if(e.keyCode == 33 || e.keyCode == 57) {
         const boom = document.getElementById("tom")
-        boom.play()
+        boom.pause();
+        boom.currentTime = 0;
+        boom.play();
     }
 })
-
 nmp1.addEventListener("click", () => {
-    const boom = document.getElementById("boom")
-    boom.play()
+    const boom = document.getElementById("boom");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp2.addEventListener("click", () => {
-    const boom = document.getElementById("clap")
-    boom.play()
+    const boom = document.getElementById("clap");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp3.addEventListener("click", () => {
-    const boom = document.getElementById("hihat")
-    boom.play()
+    const boom = document.getElementById("hihat");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp4.addEventListener("click", () => {
-    const boom = document.getElementById("kick")
-    boom.play()
+    const boom = document.getElementById("kick");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp5.addEventListener("click", () => {
-    const boom = document.getElementById("openhat")
-    boom.play()
+    const boom = document.getElementById("openhat");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp6.addEventListener("click", () => {
-    const boom = document.getElementById("ride")
-    boom.play()
+    const boom = document.getElementById("ride");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp7.addEventListener("click", () => {
-    const boom = document.getElementById("snare")
-    boom.play()
+    const boom = document.getElementById("snare");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp8.addEventListener("click", () => {
-    const boom = document.getElementById("tink")
-    boom.play()
+    const boom = document.getElementById("tink");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
 nmp9.addEventListener("click", () => {
-    const boom = document.getElementById("tom")
-    boom.play()
+    const boom = document.getElementById("tom");
+    boom.pause();
+    boom.currentTime = 0;
+    boom.play();
 })
