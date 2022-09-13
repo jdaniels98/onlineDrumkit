@@ -1,0 +1,63 @@
+* {
+    background-color: #454444;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background-color: #454444;
+}
+
+#masterContainer header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+    color: white;
+    font-size: 55px;
+}
+#masterContainer header p {
+    background-color: black;
+    margin-top: 40px;
+}
+#masterContainer header p b {
+    background-color: black;
+}
+#masterContainer header img {
+    background-color: black;
+    margin-top: 25px;
+    margin-right: 35px;
+    height: 70%;
+}
+
+#masterContainer #container .keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+#masterContainer #container .keys button {
+    background-color: #454444;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 63px 63px;
+    font-size: 16px;
+  }
+
+#masterContainer #container .keys button i{
+    font-style: normal;
+}
+
+#masterContainer #info {
+    margin-top: 20px;
+    color: white;
+}
